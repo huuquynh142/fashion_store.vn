@@ -36,6 +36,7 @@
 .item h4 a{
 	font-size: 1.2em;
 	color: #999999;
+	height: 80px;
 	padding: 0.5em 0 0.4em 0;
 	display:block;
 	transition:0.5s all;

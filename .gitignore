@@ -1,1 +1,5 @@
 # Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/fashion_store.iml
