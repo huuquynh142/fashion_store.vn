@@ -8,6 +8,9 @@
     <link href="../lib/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="../lib/js/jquery.min.js"></script>
     <script type="text/javascript" src="../lib/js/myJavaScript.js"></script>
+    <script type="text/javascript" src="../lib/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../lib/js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="../lib/js/fliplightbox.min.js"></script>
     <!-- start slider -->
     <link href="../lib/css/slider.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="../lib/js/modernizr.custom.28468.js"></script>
@@ -63,11 +66,11 @@
         <div class="header_sub">
             <div class="h_menu">
                 <ul>
-                    <li class="active"><a href="index.html">Trang chủ </a></li> |
-                    <li><a href="sale.html">Sản phẩm</a></li> |
-                    <li><a href="shoes.html">Nam</a></li> |
-                    <li><a href="shoes.html">Nữ</a></li> |
-                    <li><a href="contact.html">Liên hệ</a></li>
+                    <li class="active"><a href="index.php">Trang chủ </a></li> |
+                    <li ><a href="" class="product-all" id="2">Sản phẩm</a></li> |
+                    <li><a href="shoes.html" id="3">Nam</a></li> |
+                    <li><a href="shoes.html" id="4">Nữ</a></li> |
+                    <li><a href="contact.html" id="5">Liên hệ</a></li>
                 </ul>
             </div>
             <div class="top-nav">
