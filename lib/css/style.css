@@ -449,7 +449,7 @@ body {
 }
 .grid1_of_3{
 	float: left;
-	width: 29.333%;
+	width: 21%;
 	margin-left: 4.3333%;
 	border: 1px solid rgb(223, 223, 223);
 	position: relative;
@@ -466,8 +466,9 @@ body {
 }
 .grid1_of_3 h3{
 	margin: 6% 0 8%;
-	font-size: 1.8em;
-	color: #999999;
+	font-size: 1.5em;
+	color: #2e2e2e;
+	height: 40px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -490,15 +491,16 @@ body {
 }
 .price h4{
 	font-size: 1.5em;
-	color: #999999;	
+	color: #6f2716;
 }
 .price h4 span{
 	display: inline-block;
 	font-size: 1.1em;
 	background: #3CC395;
 	color: #ffffff;
+	align-items: center;
 	padding: 8px 20px;
-	margin-left: 30px;
+	margin-top: 8px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
