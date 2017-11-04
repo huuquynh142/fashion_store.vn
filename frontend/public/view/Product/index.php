@@ -1,3 +1,10 @@
+<?php
+include_once('../../../controller/ProductControllor.php');
+include_once('../../../../key/ProductKey.php');
+$controllor = new ProductControllor();
+$body = $controllor->index();
+?>
+
 <div class="main_bg">
     <div class="wrap">
         <div class="main">
@@ -10,7 +17,23 @@
                         <li><span class="filter" data-filter="icon web card">nữ</span></li>
                     </ul>
                     <div id="portfoliolist">
-                        <div class="portfolio logo1" data-cat="logo">
+                        <?php foreach ($body['body'] as $pos => $item ) { ?>
+                            <div class="portfolio logo1" data-cat="logo">
+                                <div class="portfolio-wrapper">
+                                    <a  href="details.html">
+                                        <img src="../lib/images/<?= $item[ProductKey::IMAGE]?>""  alt="Image 2" />
+                                    </a>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">ethnic fashion guide: sarees</a>
+                                            <span class="text-category">indulge</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php }?>
+                       <!-- <div class="portfolio logo1" data-cat="logo">
                             <div class="portfolio-wrapper">
                                 <a  href="details.html">
                                     <img src="images/sale_pic1.jpg"  alt="Image 2" />
@@ -179,7 +202,7 @@
                                     <div class="label-bg"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
