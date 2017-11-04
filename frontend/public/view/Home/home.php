@@ -1,16 +1,16 @@
 <?php
-include_once('../../controller/homeControllor.php');
-include_once('../../../key/ProductKey.php');
+include_once('../../../controller/homeControllor.php');
+include_once('../../../../key/ProductKey.php');
 $controllor = new HomeControllor();
 $body = $controllor->index();
 $slide = $controllor->slide();
 $carousel = $controllor->carousel();
 ?>
 <!-- start slider -->
-<?php require_once ('slide.php') ?>
+<?php require_once('slide.php') ?>
 <!----start-cursual---->
 
-<?php require_once ('carousel.php')?>
+<?php require_once('carousel.php') ?>
 <!-- start main1 -->
 <div class="main_bg1">
     <div class="wrap">
