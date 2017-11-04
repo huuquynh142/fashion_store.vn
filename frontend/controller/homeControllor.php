@@ -5,8 +5,8 @@
  * Date: 11/3/2017
  * Time: 1:26 AM
  */
- include('../../../lib/db/connectdb.php');
- include('../../../key/ProductKey.php');
+ include('../../../../lib/db/connectdb.php');
+ include('../../../../key/ProductKey.php');
  class HomeControllor extends database{
      function index(){
          $sql = 'select '
