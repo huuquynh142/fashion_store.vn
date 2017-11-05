@@ -66,21 +66,21 @@
         <div class="header_sub">
             <div class="h_menu">
                 <ul>
-                    <li class="active"><a href="index.php">Trang chủ </a></li> |
-                    <li ><a href="" class="product-all" id="2">Sản phẩm</a></li> |
-                    <li><a href="shoes.html" id="3">Nam</a></li> |
-                    <li><a href="shoes.html" id="4">Nữ</a></li> |
-                    <li><a href="contact.html" id="5">Liên hệ</a></li>
+                    <li class="active"><a href="#Home/home.php">Trang chủ </a></li> |
+                    <li ><a href="#Product/index.php" class="product-all">Sản phẩm</a></li> |
+                    <li><a href="#Man/index.php">Nam</a></li> |
+                    <li><a href="#Women/index.php">Nữ</a></li> |
+                    <li><a href="contact.html.php">Liên hệ</a></li>
                 </ul>
             </div>
             <div class="top-nav">
                 <nav class="nav">
                     <a href="#" id="w3-menu-trigger"> </a>
                     <ul class="nav-list" style="">
-                        <li class="nav-item"><a class="active" href="index.html">Trang chủ</a></li>
-                        <li class="nav-item"><a href="sale.html">Sản phẩm</a></li>
-                        <li class="nav-item"><a href="shoes.html">Nam</a></li>
-                        <li class="nav-item"><a href="shoes.html">Nữ</a></li>
+                        <li class="nav-item"><a class="active" href="#Home/home.php">Trang chủ</a></li>
+                        <li class="nav-item"><a href="#Product/index.php">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="#Man/index.php">Nam</a></li>
+                        <li class="nav-item"><a href="#Women/index.php">Nữ</a></li>
                         <li class="nav-item"><a href="contact.html">Liên hệ?</a></li>
                     </ul>
                 </nav>
