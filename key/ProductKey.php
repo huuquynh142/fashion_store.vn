@@ -37,6 +37,8 @@ class ProductKey
 
     const SIZE_DB = 'product_details.size';
 
+    const IS_MEN_DB = 'product_details.is_men';
+
     const COMMENT_DB = 'product_details.comment';
 
     const PRODUCT_DETAIL_ID_DB = 'product.product_detail_id';
@@ -69,4 +71,6 @@ class ProductKey
     const SIZE = 'size';
 
     const COMMENT = 'comment';
+
+    const IS_MEN = 'is_men';
 }
