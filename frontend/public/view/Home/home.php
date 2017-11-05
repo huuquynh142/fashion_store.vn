@@ -29,8 +29,8 @@ $carousel = $controllor->carousel();
                     <?php if (($pos + 1) < count($body['body']) ) {?>
                         <?php if (($pos + 1) % 4 == 0) {?>
                             <div class="grid1_of_3">
-                                <a href="details.html">
-                                    <img src="../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
+                                <a href="#Detail/index.php?id=<?= $item[ProductKey::PRODUCT_ID]?>">
+                                    <img src="../../../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
                                     <h3><?= $item[ProductKey::NAME]?></h3>
                                     <div class="price">
                                         <h4>Giá <?= number_format($item[ProductKey::SALE_PRICE])?>  VND</h4>
@@ -43,8 +43,8 @@ $carousel = $controllor->carousel();
                         <div class="grids_of_3">
                         <?php }else{ ?>
                             <div class="grid1_of_3">
-                                <a href="details.html">
-                                    <img src="../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
+                                <a href="#Detail/index.php?id=<?= $item[ProductKey::PRODUCT_ID]?>">
+                                    <img src="../../../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
                                     <h3><?= $item[ProductKey::NAME]?></h3>
                                     <div class="price">
                                         <h4>Giá <?= number_format($item[ProductKey::SALE_PRICE])?>  VND</h4>
@@ -55,8 +55,8 @@ $carousel = $controllor->carousel();
                             <?php } ?>
                     <?php }else if(($pos + 1) == count($body['body']) ){ ?>
                             <div class="grid1_of_3">
-                                <a href="details.html">
-                                    <img src="../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
+                                <a href="#Detail/index.php?id=<?= $item[ProductKey::PRODUCT_ID]?>">
+                                    <img src="../../../lib/images/<?= $item[ProductKey::IMAGE]?>" alt=""/>
                                     <h3><?= $item[ProductKey::NAME]?></h3>
                                     <div class="price">
                                         <h4>Giá <?= number_format($item[ProductKey::SALE_PRICE])?>  VND</h4>
