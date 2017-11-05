@@ -5,25 +5,25 @@
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
     <meta content="text/html; charset=utf-8" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    <link href="../lib/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <script type="text/javascript" src="../lib/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../lib/js/myJavaScript.js"></script>
-    <script type="text/javascript" src="../lib/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="../lib/js/jquery.mixitup.min.js"></script>
-    <script type="text/javascript" src="../lib/js/fliplightbox.min.js"></script>
+    <link href="../../../lib/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="../../../lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../lib/js/myJavaScript.js"></script>
+    <script type="text/javascript" src="../../../lib/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../../../lib/js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="../../../lib/js/fliplightbox.min.js"></script>
     <!-- start slider -->
-    <link href="../lib/css/slider.css" rel="stylesheet" type="text/css" media="all" />
-    <script type="text/javascript" src="../lib/js/modernizr.custom.28468.js"></script>
-    <script type="text/javascript" src="../lib/js/jquery.cslider.js"></script>
+    <link href="../../../lib/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="../../../lib/js/modernizr.custom.28468.js"></script>
+    <script type="text/javascript" src="../../../lib/js/jquery.cslider.js"></script>
     <!-- Owl Carousel Assets -->
-    <link href="../lib/css/owl.carousel.css" rel="stylesheet" >
+    <link href="../../../lib/css/owl.carousel.css" rel="stylesheet" >
     <!-- Owl Carousel Assets -->
     <!-- Prettify -->
-    <script src="../lib/js/owl.carousel.js"></script>   
+    <script src="../../../lib/js/owl.carousel.js"></script>
     <!-- //Owl Carousel Assets -->
     <!-- start top_js_button -->
-    <script type="text/javascript" src="../lib/js/move-top.js"></script>
-    <script type="text/javascript" src="../lib/js/easing.js"></script>
+    <script type="text/javascript" src="../../../lib/js/move-top.js"></script>
+    <script type="text/javascript" src="../../../lib/js/easing.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
@@ -39,7 +39,7 @@
     <div class="wrap">
         <div class="header">
             <div class="logo">
-                <a href="index.php"><img src="../lib/images/logo.png" alt=""/> </a>
+                <a href="index.php"><img src="../../../lib/images/logo.png" alt=""/> </a>
             </div>
             <div class="h_icon">
                 <ul class="icon1 sub-icon1">
@@ -66,21 +66,21 @@
         <div class="header_sub">
             <div class="h_menu">
                 <ul>
-                    <li class="active"><a href="index.php">Trang chủ </a></li> |
-                    <li ><a href="" class="product-all" id="2">Sản phẩm</a></li> |
-                    <li><a href="shoes.html" id="3">Nam</a></li> |
-                    <li><a href="shoes.html" id="4">Nữ</a></li> |
-                    <li><a href="contact.html" id="5">Liên hệ</a></li>
+                    <li class="active"><a href="#Home/home.php">Trang chủ </a></li> |
+                    <li ><a href="#Product/index.php" class="product-all">Sản phẩm</a></li> |
+                    <li><a href="#Man/index.php">Nam</a></li> |
+                    <li><a href="#Women/index.php">Nữ</a></li> |
+                    <li><a href="contact.html.php">Liên hệ</a></li>
                 </ul>
             </div>
             <div class="top-nav">
                 <nav class="nav">
                     <a href="#" id="w3-menu-trigger"> </a>
                     <ul class="nav-list" style="">
-                        <li class="nav-item"><a class="active" href="index.html">Trang chủ</a></li>
-                        <li class="nav-item"><a href="sale.html">Sản phẩm</a></li>
-                        <li class="nav-item"><a href="shoes.html">Nam</a></li>
-                        <li class="nav-item"><a href="shoes.html">Nữ</a></li>
+                        <li class="nav-item"><a class="active" href="#Home/home.php">Trang chủ</a></li>
+                        <li class="nav-item"><a href="#Product/index.php">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="#Man/index.php">Nam</a></li>
+                        <li class="nav-item"><a href="#Women/index.php">Nữ</a></li>
                         <li class="nav-item"><a href="contact.html">Liên hệ?</a></li>
                     </ul>
                 </nav>
@@ -90,7 +90,7 @@
                     </form>
                 </div>
                 <div class="clear"> </div>
-                <script src="../lib/js/responsive.menu.js"></script>
+                <script src="../../../lib/js/responsive.menu.js"></script>
             </div>
             <div class="clear"></div>
         </div>
