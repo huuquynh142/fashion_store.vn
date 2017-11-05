@@ -2,7 +2,7 @@
 include_once('../../../controller/DetailControllor.php');
 include_once('../../../../key/ProductKey.php');
 $controllor = new DetailControllor();
-$body = $controllor->index($_GET['id']);
+$body = $controllor->index($_GET['id'])
 ?>
 <div class="main_bg">
     <div class="wrap">
